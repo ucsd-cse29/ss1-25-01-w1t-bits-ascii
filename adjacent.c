@@ -6,4 +6,6 @@ int main() {
                              'e', 'v', 'e', 'r', 'y', 'o', 'n', 'e', '!' };
     puts(hi);
     puts(helloeveryone);
+
+    printf("This should clearly say 'Hello, everyone!': %s\n", helloeveryone);
 }
